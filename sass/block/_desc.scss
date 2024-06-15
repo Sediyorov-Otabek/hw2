@@ -1,0 +1,137 @@
+.desc {
+  margin-top: 40px;
+  .desc__wrap {
+    display: flex;
+    justify-content: space-between;
+    .desc__text {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .desc__title {
+        line-height: 1.6;
+      }
+    }
+    .desc__info {
+      display: flex;
+      flex-direction: column;
+      .info__wrap {
+        display: flex;
+        gap: 10px;
+        .info__card {
+          line-height: 1.8;
+        }
+        .sy {
+          display: flex;
+          flex-direction: column;
+          align-items: end;
+        }
+      }
+        .info__wrapp {
+        display: none;
+        gap: 10px;
+        .info__card {
+          line-height: 1.8;
+        }
+        .sy {
+          display: flex;
+          flex-direction: column;
+          align-items: end;
+        }
+      }
+    }
+  }
+}
+@media (max-width:972px) {
+  .desc {
+    margin-top: 40px;
+    .desc__wrap {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    .desc__text {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .desc__title {
+        line-height: 1.6;
+      }
+    }
+    .desc__info {
+      display: flex;
+      flex-direction: column;
+      .info__wrap {
+        display: flex;
+        gap: 10px;
+        .info__card {
+          line-height: 1.8;
+        }
+        .sy {
+          display: flex;
+          flex-direction: column;
+          align-items: end;
+        }
+      }
+      .info__wrapp {
+        display: none;
+        gap: 10px;
+        .info__card {
+          line-height: 1.8;
+        }
+        .sy {
+          display: flex;
+          flex-direction: column;
+          align-items: end;
+        }
+      }
+    }
+  }
+}
+  
+}
+@media (max-width:550px) {
+  .desc {
+    margin-top: 40px;
+    .desc__wrap {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    .desc__text {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .desc__title {
+        line-height: 1.6;
+      }
+    }
+    .desc__info {
+      display: flex;
+      flex-direction: column;
+      .info__wrap {
+        display: none;
+        gap: 10px;
+        flex-direction: column;
+        .info__card {
+          line-height: 1.8;
+        }
+        .sy {
+          display: flex;
+          flex-direction: column;
+          align-items: end;
+        }
+      }
+        .info__wrapp {
+        display: flex;
+        gap: 10px;
+        .info__card {
+          line-height: 1.8;
+        }
+       
+      }
+    }
+  }
+}
+  
+}

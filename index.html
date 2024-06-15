@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
@@ -56,24 +57,411 @@
     <main>
       <section class="hero">
         <div class="container">
-          <div class="hero__img">
-            <img src="./assets/top.png" alt="" />
-            <img style="margin-top: -3px" src="./assets/map (2).png" alt="" />
+          <div class="hero__text">
+            <p><a href="">Главная</a>/ <a href="">Контакты</a></p>
+            <b>Контакты</b>
+          </div>
+          <div class="img"></div>
+        </div>
+      </section>
+      <div class="hero__sy"></div>
+      <section class="desc">
+        <div class="container">
+          <div class="desc__wrap">
+            <div class="desc__text">
+              <div class="desc__title">
+                <b>Адрес магазина:</b>
+                <p>Россия, Москва, ул. Доватора, дом 7/8 с1</p>
+              </div>
+              <div class="desc__title">
+                <b>График работы:</b>
+                <p>Понедельник — Воскресение с 10:00 до 20:00 часа</p>
+                <p>БЕЗ ВЫХОДНЫХ</p>
+              </div>
+              <div class="desc__title">
+                <b>Телефоны:</b>
+                <p>+7 (495) 055-75-86</p>
+                <p>+7 (965) 142-22-99</p>
+              </div>
+              <div class="desc__title">
+                <b>E-mail:</b>
+                <p>order@world-bike.ru — заказы</p>
+                <p>nfo@world-bike.ru — информация</p>
+                <p>opt@world-bike.ru — опт</p>
+              </div>
+            </div>
+            <div class="desc__info">
+              <b>Юридическая информация:</b>
+              <div class="info__wrap">
+                <div class="info__card">
+                  <p>Наименование</p>
+                  <p>ИНН:</p>
+                  <p>ОГРН:</p>
+                  <p>Фактический адрес:</p>
+                  <p>Юридический адрес:</p>
+                  <p>Расчетный счет:</p>
+                  <p>Банк:</p>
+                  <p>Корр.счет:</p>
+                  <p>БИК:</p>
+                </div>
+                <div class="info__card sy">
+                  <p>ИП НЕТРЕБИН ВЛАДИСЛАВ ВЯЧЕСЛАВОВИЧ</p>
+                  <p>402573939444</p>
+                  <p>317402700004683</p>
+                  <p>Москва, ул. Доватора, дом 7/8 с1</p>
+                  <p>Москва, ул. Доватора, дом 7/8 с1</p>
+                  <p>40802810800000085888</p>
+                  <p>АО «ТИНЬКОФФ БАНК»</p>
+                  <p>30101810145250000974</p>
+                  <p>044525974</p>
+                </div>
+              </div>
+              <div class="info__wrapp">
+                <div class="info__card">
+                  <p>Наименование</p>
+                  <p>ИП НЕТРЕБИН ВЛАДИСЛАВ ВЯЧЕСЛАВОВИЧ</p>
+                  <p>ИНН:</p>
+                  <p>402573939444</p>
+                  <p>ОГРН:</p>
+                  <p>317402700004683</p>
+                  <p>Фактический адрес:</p>
+                  <p>Москва, ул. Доватора, дом 7/8 с1</p>
+                  <p>Юридический адрес:</p>
+                  <p>Москва, ул. Доватора, дом 7/8 с1</p>
+                  <p>Расчетный счет:</p>
+                  <p>40802810800000085888</p>
+                  <p>Банк:</p>
+                  <p>АО «ТИНЬКОФФ БАНК»</p>
+                  <p>Корр.счет:</p>
+                  <p>30101810145250000974</p>
+                  <p>БИК:</p>
+                  <p>044525974</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <section class="desc">
-           <div class="container">
-            <div class="desc__wrap">
-                <div class="desc__text">
-                    <div>
-                        <b>Адрес магазина:</b>
-                        <p></p>
-                    </div>
+      <section class="question">
+        <div class="container">
+          <div class="question__wrap">
+            <div class="question__inp__wrap">
+              <b>СВЯЖИТЕСЬ С НАМИ ПО ЛЮБЫМ ВОПРОСАМ</b>
+              <form class="question__inp">
+                <div class="inputs">
+                  <input type="text" required placeholder="Имя" />
+                  <input type="email" required placeholder="E-mail" />
+                  <input type="tel" required placeholder="Телефон" />
+                  <input type="text" required placeholder="Компания" />
                 </div>
+              <div class="massage">
+                  <input
+                  
+                  type="text"
+                  placeholder="Сообщение"
+                />
+              </div>
+                <button>Задать вопрос</button>
+              </form>
             </div>
-           </div>
+            <div class="question__img">
+              <img src="./assets/image 86.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="accardion">
+        <div class="container">
+          <div class="accordion" id="accordionExample">
+            <b style="font-size: 40px">Часто задаваемы евопросы</b>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Получу ли я тот же товар, что и на картинке?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It
+                  is shown by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Где я могу посмотреть чек о продаже?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Как я могу вернуть товар?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Будете ли вы пополнять запасы товаров, помеченных как «нет в
+                  наличии»?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  С какими видами доставки вы работаете?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="markk">
+        <div class="container">
+          <div class="markk__wrap">
+            <div>
+              <img src="./assets/2.png" alt="" />
+            </div>
+            <div>
+              <img src="./assets/3.png" alt="" />
+            </div>
+
+            <div>
+              <img src="./assets/4.png" alt="" />
+            </div>
+            <div>
+              <img src="./assets/5.png" alt="" />
+            </div>
+            <div>
+              <img src="./assets/6.png" alt="" />
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+    <footer>
+      <div class="container">
+        <section class="footer__input">
+          <div class="footer__btn">
+            <b>Подпишитесь на наши новости</b>
+            <form action="">
+              <input type="email" placeholder="e-mail" />
+              <button>Подписаться</button>
+            </form>
+            <p class="befor">Согласен(на) на обработку персональных данных</p>
+          </div>
+          <div class="inp__img"><img src="./assets/pic.png" alt="" /></div>
+        </section>
+        <section class="footer__end">
+          <div class="footer__wrap">
+            <div class="footer__item logo">
+              <div><img src="./assets/logo (6).png" alt="" /></div>
+              <p>
+                Компания World-bikes специализируется на продаже товаров для
+                велосипедного спорта.
+              </p>
+            </div>
+            <div class="footer__item">
+              <b>Каталог</b>
+              <ul class="item__collection">
+                <li class="item__item">
+                  <a href="">Trade-in</a>
+                </li>
+                <li class="item__item">
+                  <a href="">Велосипеды</a>
+                </li>
+                <li class="item__item">
+                  <a href="">Экипировка</a>
+                </li>
+                <li class="item__item">
+                  <a href="">Запчасти</a>
+                </li>
+                <li class="item__item">
+                  <a href="">Велостанки</a>
+                </li>
+                <li class="item__item">
+                  <a href="">Аксессуары</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__item">
+              <b>Для клиента</b>
+              <ul class="item__collection">
+                <li class="item__item">
+                  <a href="">О нас</a>
+                </li>
+                <li class="item__item">
+                  <a href="">Блог</a>
+                </li>
+                <li class="item__item">
+                  <a href="">Контакты</a>
+                </li>
+                <li class="item__item">
+                  <a href="">Веломастерская</a>
+                </li>
+                <li class="item__item">
+                  <a href="">Веломастерская</a>
+                </li>
+                <li class="item__item">
+                  <a href="">Велостанки</a>
+                </li>
+                <li class="item__item">
+                  <a href="">Хранение</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__item">
+              <b>Контакты</b>
+              <div class="footer__icon">
+                <div><img src="./assets/smartphone.png" alt="" /></div>
+                <div class="contact">
+                  <p>+7(495)055-75-86</p>
+                  <p>+7(965)142-22-99</p>
+                </div>
+              </div>
+              <div class="footer__icon">
+                <div><img src="./assets/navigation.png" alt="" /></div>
+                <div class="contact">
+                  <p>г. Москва, ул.</p>
+                  <p>Доватора, 7/8 с1</p>
+                </div>
+              </div>
+              <div class="footer__icon">
+                <div><img src="./assets/mail.png" alt="" /></div>
+                <div class="contact">
+                  <p>+7(495)055-75-86</p>
+                  <p>+7(965)142-22-99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <hr />
+            <div style="display: flex; gap: 20px; color: rgb(88, 81, 81)">
+              <p>© 2023 world bike</p>
+              <p>Пользовательское соглашение</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.js"></script>
   </body>
 </html>

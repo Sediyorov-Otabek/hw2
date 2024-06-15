@@ -1,6 +1,28 @@
-.hero__img {
-  padding-top: 122.5px;
-  img {
-    width: 100%;
+.hero{
+  background: url(../../assets/Rectangle\ 166.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: center;
+  .hero__text{
+    line-height: 3;
+    p{
+      color: aliceblue;
+      a{
+        &:hover{
+          color: orangered;
+        }
+      }
+    }
+    b{
+      font-size: 48px;
+      color: aliceblue;
+    }
   }
+}
+.hero__sy{
+  background: url(../../assets/map\ \(2\).png);
+  background-repeat: no-repeat;
+  height: 500px;
+  margin: auto;
+  background-position: center;
 }

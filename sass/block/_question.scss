@@ -1,0 +1,128 @@
+.question {
+  margin-top: 60px;
+
+  width: 100%;
+  background: rgb(236, 109, 12);
+  .question__wrap {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    button {
+      height: 50px;
+      border-radius: 10px;
+      border: none;
+      &:hover {
+        color: red;
+      }
+    }
+
+    input {
+      padding: 6px;
+      width: 300px;
+      height: 45px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+    }
+    .question__inp__wrap {
+      padding: 40px 0;
+      b {
+        font-size: 50px;
+      }
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 50%;
+      .question__inp {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .inputs {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 20px;
+        }
+       
+      }
+    }
+    .question__img {
+      width: 50%;
+      //   border: 1px solid red;
+      position: relative;
+      height: 600px;
+      overflow: hidden;
+      img {
+        position: absolute;
+        right: -450px;
+        top: -80px;
+        width: 200%;
+      }
+    }
+  }
+}
+@media (max-width: 1253px) {
+  .question {
+    margin-top: 60px;
+
+    width: 100%;
+    background: rgb(236, 109, 12);
+    .question__wrap {
+      margin: auto;
+      display: flex;
+      gap: 15px;
+      align-items: center;
+
+      button {
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        &:hover {
+          color: red;
+        }
+      }
+
+      input {
+        padding: 6px;
+        width: 300px;
+        height: 45px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+      }
+      .question__inp__wrap {
+        padding: 40px 0;
+        b {
+          font-size: 50px;
+        }
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 50%;
+        .question__inp {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          .inputs {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+          }
+        }
+      }
+      .question__img {
+        display: none;
+        width: 50%;
+        //   border: 1px solid red;
+        position: relative;
+        height: 600px;
+        overflow: hidden;
+        img {
+          position: absolute;
+          right: -450px;
+          top: -80px;
+          width: 200%;
+        }
+      }
+    }
+  }
+}
