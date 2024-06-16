@@ -33,10 +33,20 @@
       flex-direction: column;
       gap: 20px;
       width: 50%;
+      border: 3px solid red;
       .question__inp {
         display: flex;
+        width: 100%;
         flex-direction: column;
         gap: 20px;
+        .massage{
+          display: flex;
+          width: 100%;
+          input{
+            width: 100%;
+            height: 100px;
+          }
+        }
         .inputs {
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -83,7 +93,7 @@
 
       input {
         padding: 6px;
-        width: 300px;
+        width: 100%;
         height: 45px;
         border-radius: 10px;
         border: none;
@@ -92,19 +102,20 @@
       .question__inp__wrap {
         padding: 40px 0;
         b {
-          font-size: 50px;
+          font-size: 30px;
         }
         display: flex;
         flex-direction: column;
         gap: 20px;
-        width: 50%;
+        width: 100%;
         .question__inp {
           display: flex;
           flex-direction: column;
           gap: 20px;
           .inputs {
+            width: 100%;
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr ;
             gap: 20px;
           }
         }
