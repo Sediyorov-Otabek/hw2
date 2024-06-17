@@ -228,17 +228,136 @@
   }
   console.log(day(5, 5));
 }
-{
-  // 10 masala
-  function robot(y, k) {
-    let k=0
-    switch ( y) {
-      case (`s`):
-       if()
+// {
+//   // 10 masala
+//   function robot(y, k) {
+//     let k=0
+//     switch ( y) {
+//       case (`s`):
+//        if()
 
-      default:
-        return "bunday yonalish yoq";
+//       default:
+//         return "bunday yonalish yoq";
+//     }
+//   }
+//   console.log(robot( "g", 0));
+// }
+
+{
+  // for1
+  function number(k, n) {
+    if (n > 0) {
+      for (let i = 0; i < n; i++) {
+        console.log(k);
+      }
+    } else {
+      return n` musbat bo'lishi kerak.`;
     }
   }
-  console.log(robot( "g", 0));
+
+  console.log(number(3, 5));
+}
+{
+  // for2
+  function number(a, b) {
+    if (a < b) {
+      for (let i = a; i < b + 1; i++) {
+        console.log(i);
+      }
+    } else {
+      return a`musbat son kiriting.`;
+    }
+  }
+
+  // console.log(number(2, 5));
+}
+{
+  // for3
+  function number(a, b) {
+    if (a < b) {
+      for (let d = (b -= 1); d > a; d--) {
+        console.log(d);
+      }
+    } else {
+      return `a soni b dan kichik bo'lishi kerak`;
+    }
+    console.log(b - a);
+  }
+
+  // console.log(number(2, 5));
+}
+{
+  // for4
+  function shakar(prise) {
+    for (let i = 1; i <= 10; i += 1) {
+      console.log(`${i * prise}`);
+    }
+  }
+  // console.log(shakar(25000));
+}
+{
+  // for5
+  function shakar(prise) {
+    for (let i = 0.1; i <= 1; i += 0.1) {
+      console.log(`${i * prise}`);
+    }
+  }
+  // console.log(shakar(25000));
+}
+{
+  // for6
+  function shakar(prise) {
+    for (let i = 1.2; i <= 2; i += 0.2) {
+      console.log(`${i * prise}`);
+    }
+  }
+  // console.log(shakar(25000));
+}
+{
+  // for7
+  function son(a, b) {
+    let sum = 0;
+    for (let i = a; i <= b; i++) {
+      sum = sum + i;
+    }
+    console.log(`${sum}`);
+  }
+  // console.log(son(5, 10));
+}
+{
+  // for8
+  function son(a, b) {
+    let sum = 1;
+    for (let i = a; i <= b; i++) {
+      sum = sum * i;
+    }
+    console.log(`${sum}`);
+  }
+  // console.log(son(5, 10));
+}
+{
+  // for9
+  function son(a, b) {
+    let sum = 0;
+    for (let i = a; i <= b; i++) {
+      sum = sum + i * i;
+    }
+    console.log(`${sum}`);
+  }
+  // console.log(son(5, 10));
+}
+{
+  // for10
+  function number(n) {
+    let sum = 0;
+    if (n > 0) {
+      for (let i = 1; i <= n; i++) {
+        sum = sum + 1 / i;
+        console.log(sum);
+      }
+    } else {
+      return `n soni 0 dan katta bolsin`;
+    }
+  }
+  console.log(number(10));
 }
